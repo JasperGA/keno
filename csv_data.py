@@ -6,6 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import argparse
 from model import Network
+# small change
 
 def train(net, train_loader, val_loader, optimizer):
     total=0
